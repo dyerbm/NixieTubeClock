@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=22efce26-696a-4318-96ed-d68621128b7c
+DocumentUniqueId=17d63892-61c5-4cef-9442-67ffaed72d21
 
 [Document3]
 DocumentPath=NixieClock_Controller_R2-1.PrjPCB
@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=NixieClock_Clock_IN-8-2.PrjPCB
+DocumentPath=NixieClock_Clock_IN-14.PrjPCB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
