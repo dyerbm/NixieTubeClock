@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=BT3 Pin=IC7-6
+Removed Pin From Net: NetName=LED Pin=IC7-7
+Removed Pin From Net: NetName=BT2 Pin=IC7-16
+Added Pin To Net: NetName=BT2 Pin=IC7-6
+Added Pin To Net: NetName=BT3 Pin=IC7-7
+Added Pin To Net: NetName=LED Pin=IC7-16
+Added Member To Class: ClassName=Controller Member=Component IC3 HV5122
+Added Member To Class: ClassName=Controller Member=Component P1 Header 18X2

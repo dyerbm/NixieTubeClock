@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=BT2 Pin=IC7-6
+Removed Pin From Net: NetName=BT3 Pin=IC7-7
+Removed Pin From Net: NetName=BT1 Pin=IC7-17
+Removed Pin From Net: NetName=LEOO Pin=IC7-18
+Added Pin To Net: NetName=LEOO Pin=IC7-7
+Added Pin To Net: NetName=BT3 Pin=IC7-17
+Added Pin To Net: NetName=BT2 Pin=IC7-18
+Added Pin To Net: NetName=BT1 Pin=IC7-19
+Added Pin To Net: NetName=CLKO Pin=IC2-5
+Added Pin To Net: NetName=CLKO Pin=IC7-6
+Added Net: Name=CLKO

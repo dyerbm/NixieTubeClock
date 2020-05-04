@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=3V3 Pin=R16-1
+Added Member To Class: ClassName=Controller Member=Component R15 12K
+Added Member To Class: ClassName=Controller Member=Component R16 12K
+Added Member To Class: ClassName=Controller Member=Component R17 1K

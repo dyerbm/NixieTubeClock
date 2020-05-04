@@ -1,0 +1,51 @@
+Added Component: Designator=D2(WS2812B-NARROW)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "WS2812B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/WS2812B/Worldsemi/view-part/1038297/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D3(WS2812B-NARROW)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "WS2812B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/WS2812B/Worldsemi/view-part/1038297/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D4(WS2812B-NARROW)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "WS2812B"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/WS2812B/Worldsemi/view-part/1038297/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=D2-1-VDD
+Added Pin To Net: NetName=5V Pin=D2-1-VDD
+Added Pin To Net: NetName=NetD2_2-DOUT Pin=D2-2-DOUT
+Added Pin To Net: NetName=NetD2_2-DOUT Pin=D2-2-DOUT
+Added Pin To Net: NetName=NetD2_3-GND Pin=D2-3-GND
+Added Pin To Net: NetName=NetD2_3-GND Pin=D2-3-GND
+Added Pin To Net: NetName=NetD2_4-DIN Pin=D2-4-DIN
+Added Pin To Net: NetName=NetD2_4-DIN Pin=D2-4-DIN
+Added Pin To Net: NetName=5V Pin=D3-1-VDD
+Added Pin To Net: NetName=5V Pin=D3-1-VDD
+Added Pin To Net: NetName=NetD3_2-DOUT Pin=D3-2-DOUT
+Added Pin To Net: NetName=NetD3_2-DOUT Pin=D3-2-DOUT
+Added Pin To Net: NetName=NetD2_3-GND Pin=D3-3-GND
+Added Pin To Net: NetName=NetD2_3-GND Pin=D3-3-GND
+Added Pin To Net: NetName=NetD2_2-DOUT Pin=D3-4-DIN
+Added Pin To Net: NetName=NetD2_2-DOUT Pin=D3-4-DIN
+Added Pin To Net: NetName=5V Pin=D4-1-VDD
+Added Pin To Net: NetName=5V Pin=D4-1-VDD
+Added Pin To Net: NetName=LED Pin=D4-2-DOUT
+Added Pin To Net: NetName=LED Pin=D4-2-DOUT
+Added Pin To Net: NetName=NetD2_3-GND Pin=D4-3-GND
+Added Pin To Net: NetName=NetD2_3-GND Pin=D4-3-GND
+Added Pin To Net: NetName=NetD3_2-DOUT Pin=D4-4-DIN
+Added Pin To Net: NetName=NetD3_2-DOUT Pin=D4-4-DIN
+Added Member To Class: ClassName=Controller Member=Component D2 WS2812B
+Added Member To Class: ClassName=Controller Member=Component D3 WS2812B
+Added Member To Class: ClassName=Controller Member=Component D4 WS2812B

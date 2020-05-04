@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=R13 NewDesignator=R1
+Change Component Designator: OldDesignator=R14 NewDesignator=R2
+Change Component Designator: OldDesignator=R15 NewDesignator=R4
+Change Component Designator: OldDesignator=R16 NewDesignator=R5
+Change Component Designator: OldDesignator=R17 NewDesignator=R3
+Change Component Designator: OldDesignator=R18 NewDesignator=R6
+Added Member To Class: ClassName=Clock Member=Component R1 Res1
+Added Member To Class: ClassName=Clock Member=Component R2 Res1
+Added Member To Class: ClassName=Clock Member=Component R3 Res1
+Added Member To Class: ClassName=Clock Member=Component R4 Res1
+Added Member To Class: ClassName=Clock Member=Component R5 Res1
+Added Member To Class: ClassName=Clock Member=Component R6 Res1

@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=3V3 Pin=D2-5
+Added Pin To Net: NetName=GND Pin=D2-6
+Added Pin To Net: NetName=3V3 Pin=D3-5
+Added Pin To Net: NetName=GND Pin=D3-6
+Added Pin To Net: NetName=LED Pin=D4-1
+Added Pin To Net: NetName=3V3 Pin=D4-5
+Added Pin To Net: NetName=GND Pin=D4-6
+Added Pin To Net: NetName=5V Pin=R15-1
+Added Pin To Net: NetName=5V Pin=R16-1
+Added Pin To Net: NetName=5V Pin=R17-1
+Added Member To Class: ClassName=Controller Member=Component D2 WS2812
+Added Member To Class: ClassName=Controller Member=Component D3 WS2812
+Added Member To Class: ClassName=Controller Member=Component D4 WS2812
+Added Member To Class: ClassName=Controller Member=Component R15 Res1
+Added Member To Class: ClassName=Controller Member=Component R16 Res1
+Added Member To Class: ClassName=Controller Member=Component R17 Res1

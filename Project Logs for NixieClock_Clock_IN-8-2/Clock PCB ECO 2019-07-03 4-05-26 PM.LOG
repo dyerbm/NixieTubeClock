@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=TM29 Pin=NX4-1
+Removed Pin From Net: NetName=TM30 Pin=NX4-2
+Removed Pin From Net: NetName=TM25 Pin=NX4-5
+Removed Pin From Net: NetName=TM26 Pin=NX4-6
+Added Pin To Net: NetName=TM25 Pin=NX4-1
+Added Pin To Net: NetName=TM26 Pin=NX4-2
+Added Pin To Net: NetName=TM29 Pin=NX4-5
+Added Pin To Net: NetName=TM30 Pin=NX4-6

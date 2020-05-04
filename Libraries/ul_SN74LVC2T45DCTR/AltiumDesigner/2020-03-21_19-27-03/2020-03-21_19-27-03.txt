@@ -1,0 +1,177 @@
+# Created by Ultra Librarian Gold 8.3.219 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "DCT0008A_N")
+Pad (Name "1") (Location -68.8976, 38.3859) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "2") (Location -68.8976, 12.7953) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "3") (Location -68.8976, -12.7952) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "4") (Location -68.8976, -38.3858) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "5") (Location 68.8977, -38.3858) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "6") (Location 68.8977, -12.7952) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "7") (Location 68.8977, 12.7953) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "8") (Location 68.8977, 38.3859) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 59.05509949) (Shape Rounded) (Layer Top)
+EndPad
+Line (Width 7.87400007) (Start -23.622, -62.0078) (End -23.622, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start 23.6221, -62.0078) (End 23.6221, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -23.622, 62.0079) (End 23.6221, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -23.622, -62.0078) (End 23.6221, -62.0078) (Layer TopOverlay) 
+Arc (Width 9.84249973) (Radius 4.92129993) (Location -71.8504, 62.0079) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Text (Location -99, 99) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "Designator439")
+Line (Width 1.96850002) (Start -108.2677, -72.8346) (End -108.2677, 72.8347) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start 108.2678, -72.8346) (End 108.2678, 72.8347) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start -108.2677, 72.8347) (End 108.2678, 72.8347) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start -108.2677, -72.8346) (End 108.2678, -72.8346) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start -19.685, 0.0001) (End 19.6851, 0.0001) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start 0, -19.685) (End 0, 19.6851) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start -57.0866, -62.0078) (End -57.0866, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start 57.0867, -62.0078) (End 57.0867, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start -57.0866, 62.0079) (End 57.0867, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start -57.0866, -62.0078) (End 57.0867, -62.0078) (Layer Mechanical13) 
+Arc (Width 3.93700004) (Radius 19.68499947) (Location -21.6535, 26.5749) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Text (Location -40, -60) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value ".Designator")
+Step (Name DCT0008A_N.stp)
+EndFootprint
+
+Footprint (Name "DCT0008A_M")
+Pad (Name "1") (Location -70.8661, 38.3859) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "2") (Location -70.8661, 12.7953) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "3") (Location -70.8661, -12.7952) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "4") (Location -70.8661, -38.3858) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "5") (Location 70.8662, -38.3858) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "6") (Location 70.8662, -12.7952) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "7") (Location 70.8662, 12.7953) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "8") (Location 70.8662, 38.3859) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 70.8660965) (Shape Rounded) (Layer Top)
+EndPad
+Line (Width 7.87400007) (Start -19.685, -62.0078) (End -19.685, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start 19.6851, -62.0078) (End 19.6851, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -19.685, 62.0079) (End 19.6851, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -19.685, -62.0078) (End 19.6851, -62.0078) (Layer TopOverlay) 
+Arc (Width 9.84249973) (Radius 4.92129993) (Location -70.8661, 66.9292) (StartAngle 0) (EndAngle 360) (Layer TopOverlay) 
+Text (Location -117, 109) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "Designator440")
+Line (Width 1.96850002) (Start -125.9842, -82.6771) (End -125.9842, 82.6772) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start 125.9843, -82.6771) (End 125.9843, 82.6772) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start -125.9842, 82.6772) (End 125.9843, 82.6772) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start -125.9842, -82.6771) (End 125.9843, -82.6771) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start -19.685, 0.0001) (End 19.6851, 0.0001) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start 0, -19.685) (End 0, 19.6851) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start -57.0866, -62.0078) (End -57.0866, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start 57.0867, -62.0078) (End 57.0867, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start -57.0866, 62.0079) (End 57.0867, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start -57.0866, -62.0078) (End 57.0867, -62.0078) (Layer Mechanical13) 
+Arc (Width 3.93700004) (Radius 19.68499947) (Location -21.6535, 26.5749) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Text (Location -40, -65) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value ".Designator")
+Step (Name DCT0008A_M.stp)
+EndFootprint
+
+Footprint (Name "DCT0008A_L")
+Pad (Name "1") (Location -66.9291, 38.3859) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "2") (Location -66.9291, 12.7953) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "3") (Location -66.9291, -12.7952) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "4") (Location -66.9291, -38.3858) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "5") (Location 66.9292, -38.3858) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "6") (Location 66.9292, -12.7952) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "7") (Location 66.9292, 12.7953) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Pad (Name "8") (Location 66.9292, 38.3859) (Surface True) (Rotation 90) (ExpandMask 2) (ExpandPaste 0)
+PadShape (Size 13.77950001, 47.24409866) (Shape Rounded) (Layer Top)
+EndPad
+Line (Width 7.87400007) (Start 27.5591, -62.0078) (End 27.5591, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -27.559, -62.0078) (End 27.5591, -62.0078) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -27.559, -62.0078) (End -27.559, 36.4173) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -27.559, 36.4173) (End -1.9684, 62.0079) (Layer TopOverlay) 
+Line (Width 7.87400007) (Start -1.9684, 62.0079) (End 27.5591, 62.0079) (Layer TopOverlay) 
+Text (Location -85, 93) (Height 50) (Width 3) (Rotation 0) (Layer TopOverlay) (Value "Designator441")
+Line (Width 1.96850002) (Start -94.4882, -66.9291) (End -94.4882, 66.9292) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start 94.4882, -66.9291) (End 94.4882, 66.9292) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start -94.4882, 66.9292) (End 94.4882, 66.9292) (Layer Mechanical15) 
+Line (Width 1.96850002) (Start -94.4882, -66.9291) (End 94.4882, -66.9291) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start -19.685, 0.0001) (End 19.6851, 0.0001) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start 0, -19.685) (End 0, 19.6851) (Layer Mechanical15) 
+Line (Width 3.93700004) (Start -57.0866, -62.0078) (End -57.0866, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start 57.0866, -62.0078) (End 57.0866, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start -57.0866, 62.0079) (End 57.0866, 62.0079) (Layer Mechanical13) 
+Line (Width 3.93700004) (Start -57.0866, -62.0078) (End 57.0866, -62.0078) (Layer Mechanical13) 
+Arc (Width 3.93700004) (Radius 19.68499947) (Location -21.6535, 26.5749) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Text (Location -40, -60) (Height 50) (Width 3) (Rotation 0) (Layer Mechanical13) (Value ".Designator")
+Step (Name DCT0008A_L.stp)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "SN74LVC2T45DCTR") (PartCount 1) (DesPrefix "U?")
+Pin (Location -500, 300) (Rotation 180) (PinType Power) (Length 200) (Width 0) (Designator Visible "1") (Name Visible "VCCA") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location -500, 100) (Rotation 180) (PinType IO) (Length 200) (Width 0) (Designator Visible "2") (Name Visible "A1") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location -500, -100) (Rotation 180) (PinType IO) (Length 200) (Width 0) (Designator Visible "3") (Name Visible "A2") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 500, -300) (Rotation 0) (PinType Power) (Length 200) (Width 0) (Designator Visible "4") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location -500, -300) (Rotation 180) (PinType Input) (Length 200) (Width 0) (Designator Visible "5") (Name Visible "DIR") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 500, -100) (Rotation 0) (PinType IO) (Length 200) (Width 0) (Designator Visible "6") (Name Visible "B2") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Pin (Location 500, 100) (Rotation 0) (PinType IO) (Length 200) (Width 0) (Designator Visible "7") (Name Visible "B1") (PinSwap 0) (PartSwap 0) (PinSeq 7) (Part 1)
+Pin (Location 500, 300) (Rotation 0) (PinType Power) (Length 200) (Width 0) (Designator Visible "8") (Name Visible "VCCB") (PinSwap 0) (PartSwap 0) (PinSeq 8) (Part 1)
+Line (Width 4) (Start -500, -500) (End 500, -500) (Part 1)
+Line (Width 4) (Start 500, -500) (End 500, 500) (Part 1)
+Line (Width 4) (Start 500, 500) (End -500, 500) (Part 1)
+Line (Width 4) (Start -500, 500) (End -500, -500) (Part 1)
+Parameter (Name "Application_BuildNumber") (Location -5100, -4400) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "*") (Part 1)
+Parameter (Name "PartNumber") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "SN74LVC2T45DCTR") (Part 1)
+Parameter (Name "Alternate_PartNumber") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "SN74LVC2T45DCTT") (Part 1)
+Parameter (Name "PackageReference") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "DCT0008A") (Part 1)
+Parameter (Name "MountType") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "SMT") (Part 1)
+Parameter (Name "CompType") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "IC") (Part 1)
+Parameter (Name "RoHS") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "Y") (Part 1)
+Parameter (Name "Manufacturer") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "Texas Instruments") (Part 1)
+Parameter (Name "RefDes") (Location 0, 100) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Parameter (Name "Type") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "DEV") (Part 1)
+Parameter (Name "Value") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "Value") (Part 1)
+Parameter (Name "PIN_COUNT") (Location 0, 0) (Height 82) (Rotation 0) (Justification Center) (Value "8") (Part 1)
+Parameter (Name "Copyright") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Copyright (C) 2018 Accelerated Designs. All rights reserved") (Part 1)
+Parameter (Name "Alternate_PartNumber") (Location -720, 5830) (Height 82) (Rotation 0) (Justification BottomLeft) (Value "SN74LVC2T45DCTT") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "DCT0008A_N")
+EndComponent
+EndComponents

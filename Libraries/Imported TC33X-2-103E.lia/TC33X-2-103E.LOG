@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : TC33X-2-103E.LibPkg
+
+Section : C:\Users\jdiro\Desktop\NixieClockRev2\Libraries\TC33X-2-103E.lia
+    Section : PCB Library - TC33X-2-103E.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token TC33X-2-103E On Line 125
+            Warning - 1 : Skipping Token attachedSymbol On Line 198
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - TC33X-2-103E.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 101
+            Warning - 1 : Skipping Token layerContents On Line 107
+            Warning - 1 : Skipping Token layerContents On Line 115
+        EndSection
+
+        Section : Generating SCH Library - TC33X-2-103E.SchLib
+        EndSection
+    EndSection
+EndSection

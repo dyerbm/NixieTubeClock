@@ -1,0 +1,38 @@
+Altium Designer Pick and Place Locations
+C:\Users\jdiro\Desktop\NixieClockRev2\Project Outputs for NixieClock_Clock_IN-8-2\Pick Place for Clock.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       04-06-19
+Time:       17:59
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment       Layer       Footprint  Center-X(mil) Center-Y(mil) Rotation Description                
+R18        Res1          BottomLayer 6-0805_M   6455.560      2145.000      270      Resistor                   
+R17        Res1          BottomLayer 6-0805_M   3665.000      2145.000      270      Resistor                   
+R16        Res1          BottomLayer 6-0805_M   5625.000      2145.000      270      Resistor                   
+R15        Res1          BottomLayer 6-0805_M   4495.000      2145.000      270      Resistor                   
+R14        Res1          BottomLayer 6-0805_M   2536.920      2145.000      270      Resistor                   
+R13        Res1          BottomLayer 6-0805_M   1705.000      2145.000      270      Resistor                   
+R12        Res1          BottomLayer 1608[0603] 6518.552      2440.000      270      Resistor                   
+R11        Res1          BottomLayer 1608[0603] 5687.992      2440.000      270      Resistor                   
+R10        Res1          BottomLayer 1608[0603] 4557.992      2440.000      270      Resistor                   
+R9         Res1          BottomLayer 1608[0603] 3727.992      2440.000      270      Resistor                   
+R8         Res1          BottomLayer 1608[0603] 2599.912      2440.000      270      Resistor                   
+R7         Res1          BottomLayer 1608[0603] 1770.000      2440.000      270      Resistor                   
+P1         "Header 18X2" TopLayer    HDR2X18    4090.000      3365.000      180      "Header, 18-Pin, Dual row" 
+NX6        in-8          TopLayer    IN-14      6455.560      2526.460      0        ""                         
+NX5        in-8          TopLayer    IN-14      5625.000      2526.460      0        ""                         
+NX4        in-8          TopLayer    IN-14      4495.000      2526.460      0        ""                         
+NX3        in-8          TopLayer    IN-14      3665.000      2526.460      0        ""                         
+NX2        in-8          TopLayer    IN-14      2536.920      2526.460      0        ""                         
+NX1        in-8          TopLayer    IN-14      1705.000      2526.460      0        ""                         
+D6         WS2812        TopLayer    WS2812     6455.560      2533.701      90       ""                         
+D5         WS2812        TopLayer    WS2812     5625.000      2533.701      90       ""                         
+D4         WS2812        TopLayer    WS2812     4495.000      2533.701      90       ""                         
+D3         WS2812        TopLayer    WS2812     3665.000      2533.701      90       ""                         
+D2         WS2812        TopLayer    WS2812     2536.920      2533.701      90       ""                         
+D1         WS2812        TopLayer    WS2812     1705.000      2533.701      90       ""                         

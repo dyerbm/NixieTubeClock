@@ -1,0 +1,31 @@
+PCAD Importer Log
+Project : LTST-C19HE1WT.LibPkg
+
+Section : C:\Users\jdiro\Desktop\NixieClockRev2\LTST-C19HE1WT\LTST-C19HE1WT.lia
+    Section : PCB Library - LTST-C19HE1WT.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token LTST-C19HE1WT On Line 133
+            Warning - 1 : Skipping Token attachedSymbol On Line 219
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - LTST-C19HE1WT.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 90
+            Warning - 1 : Skipping Token layerContents On Line 113
+            Warning - 1 : Skipping Token layerContents On Line 119
+            Warning - 1 : Skipping Token layerContents On Line 125
+            Warning - 1 : Skipping Token isVisible On Line 191
+            Warning - 1 : Skipping Token isVisible On Line 192
+            Warning - 1 : Skipping Token isVisible On Line 193
+        EndSection
+
+        Section : Generating SCH Library - LTST-C19HE1WT.SchLib
+        EndSection
+    EndSection
+EndSection

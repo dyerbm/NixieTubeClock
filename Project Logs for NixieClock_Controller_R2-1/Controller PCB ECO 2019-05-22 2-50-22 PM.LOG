@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=3V3 Pin=D2-5
+Removed Pin From Net: NetName=GND Pin=D2-6
+Removed Pin From Net: NetName=3V3 Pin=D3-5
+Removed Pin From Net: NetName=GND Pin=D3-6
+Removed Pin From Net: NetName=3V3 Pin=D4-5
+Removed Pin From Net: NetName=GND Pin=D4-6
+Removed Pin From Net: NetName=3V3 Pin=D5-5
+Removed Pin From Net: NetName=GND Pin=D5-6
+Removed Pin From Net: NetName=5V Pin=R15-2
+Removed Pin From Net: NetName=5V Pin=R16-2
+Removed Pin From Net: NetName=5V Pin=R17-1
+Removed Pin From Net: NetName=5V Pin=R18-1
+Removed Member From Class: ClassName=Controller Member=D2
+Removed Member From Class: ClassName=Controller Member=D3
+Removed Member From Class: ClassName=Controller Member=D4
+Removed Member From Class: ClassName=Controller Member=D5
+Removed Member From Class: ClassName=Controller Member=R15
+Removed Member From Class: ClassName=Controller Member=R16
+Removed Member From Class: ClassName=Controller Member=R17
+Removed Member From Class: ClassName=Controller Member=R18
+Added Pin To Net: NetName=LED Pin=IC7-7
+Added Pin To Net: NetName=LED Pin=P1-35
+Added Net: Name=LED

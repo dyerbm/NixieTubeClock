@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=TM19 Pin=NX5-1
+Removed Pin From Net: NetName=TM20 Pin=NX5-2
+Removed Pin From Net: NetName=TM15 Pin=NX5-5
+Removed Pin From Net: NetName=TM16 Pin=NX5-6
+Removed Pin From Net: NetName=TM9 Pin=NX6-1
+Removed Pin From Net: NetName=TM10 Pin=NX6-2
+Removed Pin From Net: NetName=TM5 Pin=NX6-5
+Removed Pin From Net: NetName=TM6 Pin=NX6-6
+Added Pin To Net: NetName=TM15 Pin=NX5-1
+Added Pin To Net: NetName=TM16 Pin=NX5-2
+Added Pin To Net: NetName=TM19 Pin=NX5-5
+Added Pin To Net: NetName=TM20 Pin=NX5-6
+Added Pin To Net: NetName=TM5 Pin=NX6-1
+Added Pin To Net: NetName=TM6 Pin=NX6-2
+Added Pin To Net: NetName=TM9 Pin=NX6-5
+Added Pin To Net: NetName=TM10 Pin=NX6-6

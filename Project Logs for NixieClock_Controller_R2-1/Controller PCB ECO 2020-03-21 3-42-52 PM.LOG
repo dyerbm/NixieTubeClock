@@ -1,0 +1,122 @@
+Removed Pin From Net: NetName=LEDI Pin=D2-2
+Removed Pin From Net: NetName=3V3 Pin=D2-5
+Removed Pin From Net: NetName=GND Pin=D2-6
+Removed Pin From Net: NetName=3V3 Pin=D3-5
+Removed Pin From Net: NetName=GND Pin=D3-6
+Removed Pin From Net: NetName=LED Pin=D4-1
+Removed Pin From Net: NetName=3V3 Pin=D4-5
+Removed Pin From Net: NetName=GND Pin=D4-6
+Removed Pin From Net: NetName=3V3 Pin=P1-34
+Removed Pin From Net: NetName=5V Pin=R12-1
+Removed Pin From Net: NetName=5V Pin=R13-1
+Removed Pin From Net: NetName=5V Pin=R14-1
+Removed Pin From Net: NetName=GND Pin=VR1-1
+Removed Pin From Net: NetName=3V3 Pin=VR1-2
+Removed Pin From Net: NetName=5V Pin=VR1-3
+Removed Member From Class: ClassName=Controller Member=R12
+Removed Member From Class: ClassName=Controller Member=R13
+Removed Member From Class: ClassName=Controller Member=R14
+Change Component Footprint: Designator=R15 Old Footprint=0603 New Footprint=6-0805_N
+Change Component Footprint: Designator=R16 Old Footprint=0603 New Footprint=6-0805_N
+Change Component Footprint: Designator=R17 Old Footprint=0603 New Footprint=6-0805_N
+Change Component Comment : Designator=VR2 Old Comment=R-78E3.3-1.0 New Comment=R-78E5.0-1.0
+Change Component Comment : Designator=VR1 Old Comment=Volt Reg New Comment=R-78E3.3-1.0
+Change Component Comment : Designator=D2 Old Comment=WS2812 New Comment=WS2812B
+Change Component Comment : Designator=D3 Old Comment=WS2812 New Comment=WS2812B
+Change Component Comment : Designator=D4 Old Comment=WS2812 New Comment=WS2812B
+Change component parameters: Designator = "VR1" ("VR1"); Footprint = "SOT223_N"; UniqueID = "\ARGWYMPQ" ("\ARGWYMPQ")
+Change component parameters: Designator = "D2" ("D2"); Footprint = "WS2812"; UniqueID = "\OTKFEWLO" ("\OTKFEWLO")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "WS2812B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/WS2812B/Worldsemi/view-part/1038297/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3" ("D3"); Footprint = "WS2812"; UniqueID = "\ATMRTOUB" ("\ATMRTOUB")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "WS2812B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/WS2812B/Worldsemi/view-part/1038297/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4" ("D4"); Footprint = "WS2812"; UniqueID = "\XICGEYWV" ("\XICGEYWV")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "SparkFun Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "WS2812B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/WS2812B/Worldsemi/view-part/1038297/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C7(6-0805_M)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C8(1608[0603])
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C9(1608[0603])
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C10(1608[0603])
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=IC8(DCT0008A_N)
+Add component (AddParameter): Name = "Alternate_PartNumber"; Value = "SN74LVC2T45DCTT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Application_BuildNumber"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CompType"; Value = "IC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MountType"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DCT0008A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "SN74LVC2T45DCTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PIN_COUNT"; Value = "8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Y"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Value"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=5V Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=5V Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=5V Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=5V Pin=C10-2
+Added Pin To Net: NetName=5V Pin=IC8-1
+Added Pin To Net: NetName=GND Pin=IC8-4
+Added Pin To Net: NetName=GND Pin=IC8-5
+Added Pin To Net: NetName=LEDI Pin=IC8-7
+Added Pin To Net: NetName=3V3 Pin=IC8-8
+Added Pin To Net: NetName=GND Pin=P1-34
+Added Pin To Net: NetName=12V Pin=VR1-1
+Added Pin To Net: NetName=5V Pin=VR1-2
+Added Pin To Net: NetName=GND Pin=VR1-3
+Added Net: Name=NetD2_2-DOUT
+Added Net: Name=NetD2_3-GND
+Added Pin To Net: NetName=NetD2_4-DIN Pin=IC8-2
+Added Net: Name=NetD2_4-DIN
+Added Net: Name=NetD3_2-DOUT
+Added Member To Class: ClassName=Controller Member=Component C7 Cap
+Added Member To Class: ClassName=Controller Member=Component C8 0.1uF
+Added Member To Class: ClassName=Controller Member=Component C9 0.1uF
+Added Member To Class: ClassName=Controller Member=Component C10 0.1uF
+Added Member To Class: ClassName=Controller Member=Component IC8 SN74LVC2T45DCTR
+Added Room: Name=Controller
