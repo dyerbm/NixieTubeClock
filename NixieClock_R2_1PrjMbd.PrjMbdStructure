@@ -1,5 +1,0 @@
-Record=TopLevelDocument|FileName=NixieMultiBoard.MbsDoc
-Record=DiagramHierarchy|SourceDocument=NixieMultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=NixieClock_Clock_IN-8-2.PrjPCB
-Record=SubProject|SourceDocument=NixieMultiBoard.MbsDoc|ProjectPath=NixieClock_Clock_IN-8-2.PrjPCB
-Record=DiagramHierarchy|SourceDocument=NixieMultiBoard.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=NixieClock_Controller_R2-1.PrjPCB
-Record=SubProject|SourceDocument=NixieMultiBoard.MbsDoc|ProjectPath=NixieClock_Controller_R2-1.PrjPCB
