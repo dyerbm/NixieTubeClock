@@ -1,19 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [NixieClock_Controller.PrjPCB]
-   Generated File[Controller.GTO]
-   Generated File[Controller.GTS]
-   Generated File[Controller.GTL]
-   Generated File[Controller.GBL]
-   Generated File[Controller.GBS]
-   Generated File[Controller.GBO]
-   Generated File[Controller.GKO]
-   Generated File[Controller.RUL]
-   Generated File[Controller.EXTREP]
-   Generated File[Controller.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [NixieClock_Controller.PrjPCB]
+   Generated File[Controller-RoundHoles.TXT]
+   Generated File[Controller-SlotHoles.TXT]
+   Generated File[Controller.LDP]
+   Generated File[Controller.DRR]
 
 
-Files Generated   : 10
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 5:46:19 PM On 2020-05-04
+Finished Output Generation At 1:14:30 PM On 2020-05-28
