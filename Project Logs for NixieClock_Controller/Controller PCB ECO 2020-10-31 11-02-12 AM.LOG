@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=+5 Pin=U2-22
+Added Pin To Net: NetName=+5 Pin=U2-28
+Added Pin To Net: NetName=CLK Pin=U2-23
+Added Pin To Net: NetName=CLK Pin=U3-2
+Added Net: Name=CLK
+Added Pin To Net: NetName=Din Pin=U2-27
+Added Pin To Net: NetName=Din Pin=U3-24
+Added Net: Name=Din
+Added Pin To Net: NetName=LE Pin=U2-26
+Added Pin To Net: NetName=LE Pin=U3-5
+Added Net: Name=LE

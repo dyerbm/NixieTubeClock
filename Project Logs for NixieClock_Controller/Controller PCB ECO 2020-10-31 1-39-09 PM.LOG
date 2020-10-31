@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=LED Pin=D2-4-DIN
+Removed Pin From Net: NetName=LED Pin=D2-4-DIN
+Added Pin To Net: NetName=LEDIn Pin=D2-4-DIN
+Added Pin To Net: NetName=LEDIn Pin=D2-4-DIN
+Added Pin To Net: NetName=LEDIn Pin=U3-17
+Added Net: Name=LEDIn
