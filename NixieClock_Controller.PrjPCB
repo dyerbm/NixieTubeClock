@@ -191,6 +191,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
+DocumentPath=Libraries\LP5912-5.0DRVR\LP5912-5.0DRVR.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QWHXOEXZ
+
+[Document11]
 DocumentPath=Libraries\ul_UUB2G2R2MNL1GS\AltiumDesigner\2020-10-24_18-39-10\2020-10-24_18-39-10.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QPPBBDQO
 
-[Document11]
+[Document12]
 DocumentPath=Libraries\ul_SN74LVC2T45DCTR\AltiumDesigner\2020-03-21_19-27-03\2020-03-21_19-27-03.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=Libraries\WS2812B\SnapEDApcb.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=Libraries\WS2812B\SnapEDAsch.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document15]
 DocumentPath=Libraries\WS2812B\WS2812B.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=NixieClock_Controller.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document17]
 DocumentPath=Libraries\CustomComponents.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TNHOKATJ
 
-[Document17]
+[Document18]
 DocumentPath=Libraries\CustomComponents.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,6 +397,10 @@ DItemRevisionGUID=
 
 [GeneratedDocument14]
 DocumentPath=Project Outputs for NixieClock_Controller\Controller.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for NixieClock_Controller\Design Rule Check - Controller.html
 DItemRevisionGUID=
 
 [Configuration1]
