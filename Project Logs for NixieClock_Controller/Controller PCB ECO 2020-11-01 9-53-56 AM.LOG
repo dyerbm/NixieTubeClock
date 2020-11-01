@@ -1,0 +1,16 @@
+Change Component Comment : Designator=U2 Old Comment=HV5622 New Comment=HV5623
+Change Component Designator: OldDesignator=P3 NewDesignator=P2
+Change Component Designator: OldDesignator=P? NewDesignator=P3
+Change component parameters: Designator = "Q2" ("Q2"); Footprint = "SOT-23B_M"; UniqueID = "\SXLVDMOE" ("\SXLVDMOE")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT-23 Package 0.95 mm Pitch, 2.4 mm Lead Span"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOT-23B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Aug-1999"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "MMBTA92LT1GOSCT-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U2"); Footprint = "Quad44"; UniqueID = "\QHXIRCHM" ("\QHXIRCHM")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "HV5623K7-G-ND"; VariantName = "[No Variations]"
