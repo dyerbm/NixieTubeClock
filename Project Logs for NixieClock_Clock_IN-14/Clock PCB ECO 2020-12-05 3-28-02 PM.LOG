@@ -1,0 +1,48 @@
+Change Component Designator: OldDesignator=NX1 NewDesignator=NX3
+Change Component Designator: OldDesignator=NX3 NewDesignator=NX1
+Change Component Designator: OldDesignator=NX4 NewDesignator=NX6
+Change Component Designator: OldDesignator=NX6 NewDesignator=NX4
+Change Net Name : Old Net Name=NetNX1_0 New Net Name=NetNX3_0
+Change Net Name : Old Net Name=NetNX1_1 New Net Name=NetNX3_1
+Change Net Name : Old Net Name=NetNX1_2 New Net Name=NetNX3_2
+Change Net Name : Old Net Name=NetNX1_3 New Net Name=NetNX3_3
+Change Net Name : Old Net Name=NetNX1_4 New Net Name=NetNX3_4
+Change Net Name : Old Net Name=NetNX1_5 New Net Name=NetNX3_5
+Change Net Name : Old Net Name=NetNX1_6 New Net Name=NetNX3_6
+Change Net Name : Old Net Name=NetNX1_7 New Net Name=NetNX3_7
+Change Net Name : Old Net Name=NetNX1_8 New Net Name=NetNX3_8
+Change Net Name : Old Net Name=NetNX1_9 New Net Name=NetNX3_9
+Change Net Name : Old Net Name=NetNX1_A New Net Name=NetNX3_A
+Change Net Name : Old Net Name=NetNX3_0 New Net Name=NetNX1_0
+Change Net Name : Old Net Name=NetNX3_1 New Net Name=NetNX1_1
+Change Net Name : Old Net Name=NetNX3_2 New Net Name=NetNX1_2
+Change Net Name : Old Net Name=NetNX3_3 New Net Name=NetNX1_3
+Change Net Name : Old Net Name=NetNX3_4 New Net Name=NetNX1_4
+Change Net Name : Old Net Name=NetNX3_5 New Net Name=NetNX1_5
+Change Net Name : Old Net Name=NetNX3_6 New Net Name=NetNX1_6
+Change Net Name : Old Net Name=NetNX3_7 New Net Name=NetNX1_7
+Change Net Name : Old Net Name=NetNX3_8 New Net Name=NetNX1_8
+Change Net Name : Old Net Name=NetNX3_9 New Net Name=NetNX1_9
+Change Net Name : Old Net Name=NetNX3_A New Net Name=NetNX1_A
+Change Net Name : Old Net Name=NetNX4_0 New Net Name=NetNX6_0
+Change Net Name : Old Net Name=NetNX4_1 New Net Name=NetNX6_1
+Change Net Name : Old Net Name=NetNX4_2 New Net Name=NetNX6_2
+Change Net Name : Old Net Name=NetNX4_3 New Net Name=NetNX6_3
+Change Net Name : Old Net Name=NetNX4_4 New Net Name=NetNX6_4
+Change Net Name : Old Net Name=NetNX4_5 New Net Name=NetNX6_5
+Change Net Name : Old Net Name=NetNX4_6 New Net Name=NetNX6_6
+Change Net Name : Old Net Name=NetNX4_7 New Net Name=NetNX6_7
+Change Net Name : Old Net Name=NetNX4_8 New Net Name=NetNX6_8
+Change Net Name : Old Net Name=NetNX4_9 New Net Name=NetNX6_9
+Change Net Name : Old Net Name=NetNX4_A New Net Name=NetNX6_A
+Change Net Name : Old Net Name=NetNX6_0 New Net Name=NetNX4_0
+Change Net Name : Old Net Name=NetNX6_1 New Net Name=NetNX4_1
+Change Net Name : Old Net Name=NetNX6_2 New Net Name=NetNX4_2
+Change Net Name : Old Net Name=NetNX6_3 New Net Name=NetNX4_3
+Change Net Name : Old Net Name=NetNX6_4 New Net Name=NetNX4_4
+Change Net Name : Old Net Name=NetNX6_5 New Net Name=NetNX4_5
+Change Net Name : Old Net Name=NetNX6_6 New Net Name=NetNX4_6
+Change Net Name : Old Net Name=NetNX6_7 New Net Name=NetNX4_7
+Change Net Name : Old Net Name=NetNX6_8 New Net Name=NetNX4_8
+Change Net Name : Old Net Name=NetNX6_9 New Net Name=NetNX4_9
+Change Net Name : Old Net Name=NetNX6_A New Net Name=NetNX4_A

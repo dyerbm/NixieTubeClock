@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=5V Pin=U1-31
+Added Pin To Net: NetName=5V Pin=U2-31
+Added Member To Class: ClassName=Clock Member=Component P1 Header 7

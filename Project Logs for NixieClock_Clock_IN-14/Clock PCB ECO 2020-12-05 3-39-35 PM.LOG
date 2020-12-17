@@ -1,0 +1,30 @@
+Added Pin To Net: NetName=NetNX1_0 Pin=NX1-0
+Added Pin To Net: NetName=NetNX1_0 Pin=U2-21
+Added Net: Name=NetNX1_0
+Added Pin To Net: NetName=NetNX1_1 Pin=NX1-1
+Added Pin To Net: NetName=NetNX1_1 Pin=U2-12
+Added Net: Name=NetNX1_1
+Added Pin To Net: NetName=NetNX1_2 Pin=NX1-2
+Added Pin To Net: NetName=NetNX1_2 Pin=U2-13
+Added Net: Name=NetNX1_2
+Added Pin To Net: NetName=NetNX1_3 Pin=NX1-3
+Added Pin To Net: NetName=NetNX1_3 Pin=U2-14
+Added Net: Name=NetNX1_3
+Added Pin To Net: NetName=NetNX1_4 Pin=NX1-4
+Added Pin To Net: NetName=NetNX1_4 Pin=U2-15
+Added Net: Name=NetNX1_4
+Added Pin To Net: NetName=NetNX1_5 Pin=NX1-5
+Added Pin To Net: NetName=NetNX1_5 Pin=U2-16
+Added Net: Name=NetNX1_5
+Added Pin To Net: NetName=NetNX1_6 Pin=NX1-6
+Added Pin To Net: NetName=NetNX1_6 Pin=U2-17
+Added Net: Name=NetNX1_6
+Added Pin To Net: NetName=NetNX1_7 Pin=NX1-7
+Added Pin To Net: NetName=NetNX1_7 Pin=U2-18
+Added Net: Name=NetNX1_7
+Added Pin To Net: NetName=NetNX1_8 Pin=NX1-8
+Added Pin To Net: NetName=NetNX1_8 Pin=U2-19
+Added Net: Name=NetNX1_8
+Added Pin To Net: NetName=NetNX1_9 Pin=NX1-9
+Added Pin To Net: NetName=NetNX1_9 Pin=U2-20
+Added Net: Name=NetNX1_9
