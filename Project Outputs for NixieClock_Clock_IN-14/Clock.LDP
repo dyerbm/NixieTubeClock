@@ -1,2 +1,2 @@
 Layer Pairs Export File for PCB: C:\Users\jdiro\Desktop\NixieTubeClock\Clock.PcbDoc
-LayersSetName=Top_Bot_Thru_Holes|DrillFile=clock.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=clock.txt|DrillLayers=gtl,g1,g2,gbl

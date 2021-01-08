@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Clock.PcbDoc   2020-05-28  1:15:08 PM
+NCDrill File Report For: Clock.PcbDoc   2020-12-28  9:22:48 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,12 +7,12 @@ ASCII RoundHoles File : Clock.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      28mil (0.711mm)                                           Round             23        PTH        0.00inch (0.00mm)
+T1      28mil (0.711mm)                                           Round             29        PTH        0.00inch (0.00mm)
 T2      33mil (0.84mm)                                            Round             78        PTH        0.00inch (0.00mm)
-T3      35mil (0.9mm)                                             Round             36        PTH        0.00inch (0.00mm)
+T3      35mil (0.9mm)                                             Round             7         PTH        0.00inch (0.00mm)
 T4      79mil (2mm)                                               Round             4         PTH        0.00inch (0.00mm)
 T5      118mil (3mm)                                              Round             4         PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              145
+Totals                                                                              122
 
 Total Processing Time (hh:mm:ss) : 00:00:00

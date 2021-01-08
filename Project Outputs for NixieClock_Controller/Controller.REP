@@ -2,54 +2,6 @@
 FileName = Controller.GBR
 AutoAperture = True
 *************************************************************
-Generating : Keep-Out Layer
-      File : Controller.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : Controller.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : Controller.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D86
-    D87
-    D88
-*************************************************************
-
-*************************************************************
 Generating : Top Solder
       File : Controller.GTS
 
@@ -89,53 +41,6 @@ Used DCodes :
     D40
     D41
     D42
-    D43
-    D44
-    D45
-    D46
-    D47
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Controller.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Controller.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D70
-    D71
-    D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
-    D83
-    D84
-    D85
 *************************************************************
 
 *************************************************************
@@ -148,9 +53,14 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D27
-    D28
-    D34
+    D23
+    D24
+    D29
+    D43
+    D44
+    D45
+    D46
+    D47
     D48
     D49
     D50
@@ -174,17 +84,95 @@ Used DCodes :
     D68
     D69
     D70
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Controller.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
     D71
     D72
     D73
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Controller.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Controller.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
     D74
     D75
     D76
-    D77
-    D78
-    D79
-    D80
-    D81
-    D82
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Controller.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Controller.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D11
 *************************************************************
 

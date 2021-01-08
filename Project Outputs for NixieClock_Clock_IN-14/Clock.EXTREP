@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Clock.GBR   2020-05-28  1:14:54 PM
+Gerber File Extension Report For: Clock.GBR   2020-12-28  9:22:21 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -9,6 +9,8 @@ Layer Extension     Layer Description
 .GTO                Top Overlay                             
 .GTS                Top Solder                              
 .GTL                Top Layer                               
+.G1                 Layer 1                                 
+.G2                 Layer 2                                 
 .GBL                Bottom Layer                            
 .GBS                Bottom Solder                           
 .GBO                Bottom Overlay                          
