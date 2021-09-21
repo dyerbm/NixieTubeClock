@@ -1,0 +1,29 @@
+* Z:\home\dyerbm\Documents\NixieTubeClock\SEPIC_Spice.asc
+XU1 N011 FBX N007 N009 MP_01 N010 N008 N006 N005 N001 0 LT3757A
+L1 N002 N001 100µ Ipk=0.35 Rser=2.48 Rpar=165814 Cpar=5.449p
+L2 N003 0 100µ Ipk=0.35 Rser=2.48 Rpar=165814 Cpar=5.449p
+D1 N003 N004 MURS320
+RSense N010 0 0.2 tol=0.1 pwr=0.1
+R2 N004 FBX 1000k tol=1 pwr=0.25
+R1 FBX 0 9k tol=1 pwr=0.25
+C1 N003 N002 22µ V=50 Irms=3 Rser=3m
+Cin N001 0 22µ V=16 Rser=10m
+C2 N004 0 1µ V=250 Irms=2 Rser=8m
+RT N009 0 24.3k
+V1 N001 0 24
+CSS N007 0 10n
+RC N011 P001 20k
+CC2 N011 0 30p
+CC1 P001 0 10n
+C3 N006 0 4.7µ
+R3 N001 N005 27k
+R4 N005 0 12k
+R5 N004 0 6k
+XU2 N002 N008 N010 NMOS_TPN2010FNH_G0_00
+.model D D
+.lib C:\users\dyerbm\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 1
+.lib Contrib/Toshiba/nmos/TPN2010FNH_G0_00_LTspice_rev1_unenc.lib
+.lib LT3757A.sub
+.backanno
+.end

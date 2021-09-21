@@ -1,9 +1,9 @@
 * SEPIC Converter
 We are going to build a SEPIC converter using the LT3757. The main reason being, there are a lot of them available for relatively cheap, and the data sheet gives an explanation on how to do the math for a variety of architectures. With that let's get on with it.
 
-First we must make a few design decisions, all of which will affect the size and efficiency of the converter. In general we want the converter to be as small as possible so it will fit nicely on the PCB. Efficiency is a bit of an after thought here, but a >70% efficiency would be preferred to reduce any excessive heating. The converter must be able to produce >40mA @ 180V from a 5V or 12V input, 5V is preferred since it would allow power over USB. With these constraints in mind we can make a quick list
+First we must make a few design decisions, all of which will affect the size and efficiency of the converter. In general we want the converter to be as small as possible so it will fit nicely on the PCB. Efficiency is a bit of an after thought here, but a >70% efficiency would be preferred to reduce any excessive heating. The converter must be able to produce >40mA @ 180V from a 24V input. It would be preferable to run off a 5V input from a usb cable, however that would require a larger boost ratio for the converter which is difficult to obtain with the SEPIC topology. Instead we will use a 24 V input and will consider where the 24V comes from later (wether it's from the wall or another DC-DC converter). With these constraints in mind we can make a quick list
 
-    1) Input Voltage = 5V
+    1) Input Voltage = 24V
     2) Output Voltage = 180V @ 40mA
     3) Switching Frequency = 700 kHz
 
@@ -11,10 +11,12 @@ The choice of 700 kHz for the switching frequency is in an attempt to reduce the
 
 Now we go through the LT3757 datasheet and calculate all our component values. First the maximum duty cycle is calculated using the minimum input voltage as
 
+
+
     \begin{align*}
     D_{max}&=\frac{V_{out}+V_{D}}{V_{In(min)}+V_{out}+V_D} \\
-    &=\frac{180+0.7}{5+180+0.7} \\
-    &=0.973
+    &=\frac{180+0.7}{24+180+0.7} \\
+    &=0.883
     \end{align*}
 
 where $$V_D$$ is the diode forward voltage assumed to be 0.7 V for now. Technically $$V_{in(min)}$$ may be a little bit lower than 5 V, but this is close enough for now.
@@ -23,71 +25,72 @@ where $$V_D$$ is the diode forward voltage assumed to be 0.7 V for now. Technica
 
 Now we will determine the appropriate values for our inductors. For simplicity we are going to use separately wound inductors, although for space saving a single inductor may be used in a future design. From the datasheet we calculate the maximum current through the inductors $$L_1$$ and $$L_2$$ as
 
+
     \begin{align*}
     I_{L1(max)}&=I_{in(max)}=I_out(max)\frac{D_{max}}{1-D_{max}} \\
-    &=0.04\cdot\frac{0.973}{1-0.973} \\
-    &=1.4456 A \\
+    &=0.04\cdot\frac{0.883}{1-0.883} \\
+    &=0.301 A \\
     I_{L2(max)}&=I_{out(max)} \\
     &=0.040A
     \end{align*}
 
-and the maximum current is simply the sum of each maximum inductor current, making $$I_{SW(max)}=1.4856 A$$.
+and the maximum current is simply the sum of each maximum inductor current, making $$I_{SW(max)}=0.341 A$$.
 
 Now comes the slightly tricky part of picking a value for the maximum switch ripple current percentage, $$\chi$$. For now we will just stick with the recommendation of setting $$\chi=0.2$$ and will need to test the circuit later to find out if that should be changed. With the switch ripple current determined, we can calculate the peak switch current as
 
     \begin{align*}
     I_{SW(peak)}&=\left(1+\chi/2\right)I_{SW(max)} \\
-    &=1.634 A.
+    &= 0.375 A.
     \end{align*}
-    And the switch and inductor ripples are calculated as
+And the switch and inductor ripples are calculated as
 
     \begin{align*}
-    \Delta I_{SW}&=\chi I_{SW(max)}=0.297 A \\
-    \Delta I_{L1}&=\Delta I_{L2} = 0.5\cdot\Delta I_{SW} = 0.148 A
+    \Delta I_{SW}&=\chi I_{SW(max)}=0.068 A \\
+    \Delta I_{L1}&=\Delta I_{L2} = 0.5\cdot\Delta I_{SW} = 0.0341 A
     \end{align*}
 
 Finally we calculate the inductor value (this is where the switching frequency comes in)
 
 \begin{align*}
 L_1=L_2&=\frac{V_{in(min)}}{0.5\cdot\Delta I_{SW}\cdot f}\cdot D_{max} \\
-&= \frac{5}{-0.5\cdot0.297\cdot 700,000}\cdot 0.973 \\
-&=46.8 \mu H
+&= \frac{24}{-0.5\cdot0.068\cdot 500,000}\cdot 0.883 \\
+&=1.24 mH
 \end{align*}
 
-which is an awfully convenient value for an inductor since 47 uH inductors are readily available! Finally we need to calculate the peak and rms inductor currents
+which is rather large, though easy enough to find as a 1.2 mH inductor. The size of the inductor is caused by both a lower than desired switching frequency (due to duty cycle constraints) and the large input voltage. Finally we calculate a few parameters to help choose inductors, the values of which are
 
     \begin{align*}
-    I_{L1(peak)}&=1.52 A \\
-    I_{L2(peak)}&=0.144 A \\
-I_{L1(rms)}&=1.446 A \\
-I_{L2(rms)}&=0.058 A
+    I_{L1(peak)}&=0.317 A \\
+    I_{L2(peak)}&=0.0557 A \\
+I_{L1(rms)}&=0.302 A \\
+I_{L2(rms)}&=0.0412 A
     \end{align*}
 
 which will be used later when looking for components.
 
-Component choice is fairly easy here, just find a 47 uH inductor with saturation and current ratings above the peak current and rms current, respectively. Overshooting these rating should have no ill effect other than increasing the inductor size. Where possible the DC resistance should be minimized to reduce power loss due to heating. With these constraints in mind, I found the 104CDMCCDS-470MC to be appropriate for L1, with the advantage that it is relatively small. L2 is even easier since it handles much lower currents. I found the CBC3325T470KR to have acceptable parameters and it's in a 1210 form factor making it easy to solder.
+Component choice is fairly easy here, just find a 1.2m uH inductor with saturation and current ratings above the peak current and rms current, respectively. Overshooting these rating should have no ill effect other than increasing the inductor size. Where possible the DC resistance should be minimized to reduce power loss due to heating. With these constraints in mind, I found the 768776312 to be appropriate for L1, with the advantage that it is relatively small. L2 is even easier since it handles much lower currents. I found the SDR0503-122JL to have acceptable parameters while in an even smaller form factor. If a number of these were being produced we could consider using the 768776312 for both coils, but it would require ordering in bulk to make that cost effective.
 
 ** Sense Resistor
 
 With the inductor values calculated, the sense resistor value can also be found as
 
     \begin{align*}
-    R_{sense}=\frac{80 mV}{I_{SW(peak)}}=0.0488 \Omega
+    R_{sense}=\frac{80 mV}{I_{SW(peak)}}=0.213 \Omega
     \end{align*}
-which is close enough to 50$$m\Omega$$, an easy to find resistor value.
+which is between 200 and 220$$m\Omega$$, both easy to find resistor value. Some spice simulation will be needed to check which value works best.
 
 ** MOSFET
 
 In order to choose a MOSFET to do the switching, we need to know how it's parameters will affect our efficiency. The power dissipated by the MOSFET is
 
 \begin{align*}
-P_{FET}&=I^2_{SW(max)}\cdot R_{DS(on)}\cdot D_{MAX} + 2\cdot(V_{in(min)}+V_{out})^2\cdotI_{L(max)}\cdotC_{RSS}\cdot f \\
-&=2.147\cdot R_{DS(on)}+6.92\cdot10^{10}\cdot C_{RSS}
+P_{FET}&=I^2_{SW(max)}\cdot R_{DS(on)}\cdot D_{MAX} + 2\cdot(V_{in(min)}+V_{out})^2\cdotI_{L(max)}\cdot C_{RSS}\cdot f \\
+&=0.087\cdot R_{DS(on)}+4.16\cdot10^{10}\cdot C_{RSS}
 \end{align*}
 
 where $$R_DS(on)$$ is the drain-source resistance and $$C_RSS$$ is the reverse transfer capacitance. Both values should be minimized to reduce power dissipation. Reducing $$R_DS(on)$$ is easy since many MOSFETs are in the milliOhm range, however more care must be taken with $$C_RSS$$ since it will need to be lower than ~15pF in order to keep power consumption near 1W. On top of power dissipation considerations, the Drain-Source breakdown voltage must be larger than the sum of the input and output voltages. A 220V or higher breakdown voltage should suffice.
 
-Searching for an appropriate MOSFET can take a while since we are constantly calculating the total power dissipation for each MOSFET. That said, after a bit of search I landed on the TPN2010FNH which has a typical $$C_RSS=3pF$$ and a typical $$R_{DS(on)}=168 m\Omega$$, resulting in $$P_{FET}=0.568 W$$ which is good enough for now. As an added bonus, the MOSFET comes in a small surface mount package that will be easy to work with using a hot air gun or reflow oven. That said, if hand soldering were the only option, a different MOSFET should be chosen to make assembly easier.
+Searching for an appropriate MOSFET can take a while since we are constantly calculating the total power dissipation for each MOSFET. That said, after a bit of search I landed on the TPN2010FNH which has a typical $$C_{RSS}=3pF$$ and a typical $$R_{DS(on)}=168 m\Omega$$, resulting in $$P_{FET}=0.139 W$$ which is quite good (keep in mind the maximum output power is 7.2W). As an added bonus, the MOSFET comes in a small surface mount package that will be easy to work with using a hot air gun or reflow oven. That said, if hand soldering were the only option, a different MOSFET should be chosen to make assembly easier (Perhaps an IRF740).
 
 ** Output Diode
 
@@ -95,49 +98,50 @@ For choosing a diode we need to know the power it will dissipated and the peak c
 
 \begin{align*}
 I_{D(peak)}&=(1+\chi/2)\cdot I_{O(max)}\cdot\frac{1}{1-D_{max}} \\
-&=1.630 A
+&=0.376 A
 \end{align*}
 
 and the power dissipated is calculated as
 
 \begin{align*}
-P_D=I_{O(max)}\cdot V_D = 1.630\cdot V_D
+P_D=I_{O(max)}\cdot V_D = 0.04\cdot V_D
 \end{align*}
 
 which indicates that to get good performance the forward drop voltage should be as low as possible. Also note that the peak repetitive reverse voltage ($$V_{RMM}$$) should be rated for the sum of the input and output voltages. For this application  $$V_{RMM}>220V$$ will suffice.
 
-Using the above knowledge we can choose a diode by matching the $$V_{RMM}$$ and $$I_{D(peak)}$$ requirements. In addition, we want the diode to be small if possible. After a bit of searching on Digikey, I found the MURS3G-TP which seems to fit the bill. At the expected forward currents it has a $$V_D\approx 0.8V$$ which is decent given the voltage rating required. There are much better $$V_D$$ values on schottky diodes, however, most Schottky diodes don't satisfy the $$V_{RMM}$$ requirements (many have a $$V_{RMM}=200V$$ which is cutting it a bit close, if the design were to change to using 5V only perhaps a substitution can be made).
+Using the above knowledge we can choose a diode by matching the $$V_{RMM}$$ and $$I_{D(peak)}$$ requirements. In addition, we want the diode to be small if possible. After a bit of searching on Digikey, I found the MURS3G-TP which seems to fit the bill. At the expected forward currents it has a $$V_D\approx 0.8V$$ which is decent given the voltage rating required. There are much better $$V_D$$ values on schottky diodes, however, most Schottky diodes don't satisfy the $$V_{RMM}$$ requirements (many have a $$V_{RMM}=200V$$ which is not within the design requirement).
 
 ** Output capacitor
 
 The output capacitor is important when considering the output ripple of the converter. For this we are particularly interested in the equivalent series resistance (ESR) of the capacitor. For our application a 1% ripple is acceptable, so the ESR can be calculated as
 
 \begin{align*}
-ESR_{Cout}\leq\frac{0.01\cdotV_{OUT}}{I_{D(peak)}}=\frac{0.01\cdot180}{1.630}=1.1\Omega
+ESR_{Cout}\leq\frac{0.01\cdotV_{OUT}}{I_{D(peak)}}=\frac{0.01\cdot180}{0.376}=47.8\Omega
 \end{align*}
 
 The required capacitance, $$C_{out}$$ for a given 1% ripple is
 
 \begin{align*}
-C_{out}\geq\frac{I_{O(max)}}{0.01\cdotV_{out}\cdotf}=\frac{0.04}{0.01\cdot180\cdot 700,000}=31.7 nF
+C_{out}\geq\frac{I_{O(max)}}{0.01\cdotV_{out}\cdotf}=\frac{0.04}{0.01\cdot180\cdot 500,000}=44.4 nF
 \end{align*}
 
 And finally, the RMS current in the capacitor is calculated as
 
 \begin{align*}
-I_{RMS(Cout)}\geq I_{O(max)}\cdot\sqrt{\frac{D_{max}}{1-D_max}}=0.04\sqrt{\frac{0.973}{1-0.973}}=0.240A.
+I_{RMS(Cout)}\geq I_{O(max)}\cdot\sqrt{\frac{D_{max}}{1-D_{max}}}=0.04\sqrt{\frac{0.883}{1-0.883}}=0.110A.
 \end{align*}
+
 These values are all well and good, although the minimum capacitance is quite low so it should be easy enough to find a capacitor that fits the bill. At such a low capaciatance, we might as well use a ceramic capacitor. It can be difficult to find all the necessary information on a capacitor (particularly ESR) so online tools such as [[https://ds.murata.co.jp/simsurfing/mlcc.html?lcid=en-us][this one]] provide nearly anything you could want to know about the capacitors. For example, the GRJ55DR72E105KWJ1L has an ESR below $$10m\Omega$$ and a capacitance of $$1 \mu F$$. Note the capacitor needs to be rated for the output voltage, in this case the capacitor is rated for 250V.
 
 ** DC Coupling Capacitor
 
-The DC voltage rating for the coupling capacitor just needs to match the input voltage, so a 16V rated capacitor is fine. The RMS rating of the capacitor is calculated as
+The DC voltage rating for the coupling capacitor just needs to match the input voltage, so a 35V rated capacitor is fine. The RMS rating of the capacitor is calculated as
 
 \begin{align*}
 I_{RMS(CDC)}>I_{O(max)}\cdot\sqrt{\frac{V_{out}+V_{D}}{V_{in(min)}}}=0.24A
 \end{align*}
 
-Which is fairly easy to reach with a X5R ceramic capacitor. After checking the parameters, the GRM219R61C226ME15K will do the trick and has the added bonus of being used elsewhere in the design!
+Which is fairly easy to reach with a X5R or X7R ceramic capacitor. After checking the parameters, the GRM21BR61H106ME43L will do the trick and has the added bonus of being used elsewhere in the design! (There aren't a lot of these in stock, so I may change it for something else later)
 
 ** Feedback Voltage Divider
 
@@ -154,4 +158,4 @@ As we can see, the exact values of the resistors is not too important, although 
 
 Now we find values and parts for the rest of the components. These aren't as important to the performance of the circuit so we'll do this fast
 
-- Input Capacitor - GRM219R61C226ME15 - 22uF, 16V rated with a low enough ESR, a bit expensive so it can be switched for something cheaper
+- Input Capacitor - GRM219R61C226ME15 - 22uF, 50V rated with a low enough ESR, a bit expensive so it can be switched for something cheaper
